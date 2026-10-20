@@ -1,21 +1,36 @@
-# Карьера: материалы
+<div align="center">
 
-| Файл | Что внутри |
+# Антон Шкель — резюме
+
+**Продуктовая и антифрод-аналитика · данные · финтех**
+
+[![RU](https://img.shields.io/badge/Резюме-на_русском_(PDF)-0071e3?style=for-the-badge)](resume/Anton_Shkel_Resume_RU.pdf)
+[![EN](https://img.shields.io/badge/Resume-in_English_(PDF)-1d1d1f?style=for-the-badge)](resume/Anton_Shkel_Resume_EN.pdf)
+
+</div>
+
+Студент программной инженерии Финансового университета при Правительстве РФ (факультет ИТ и анализа больших данных).
+Ищу стажировку продуктового или антифрод-аналитика.
+
+| Резюме | Язык | Файл |
+|---|---|---|
+| Антон Шкель | русский | [Anton_Shkel_Resume_RU.pdf](resume/Anton_Shkel_Resume_RU.pdf) |
+| Anton Shkel | English | [Anton_Shkel_Resume_EN.pdf](resume/Anton_Shkel_Resume_EN.pdf) |
+
+## Проекты из резюме
+
+| Проект | О чём |
 |---|---|
-| [01-market-research-2026-10.md](01-market-research-2026-10.md) | Анализ рынка финтеха на октябрь 2026: что горячо и почему выбраны эти проекты |
-| [02-job-search-plan-30-days.md](02-job-search-plan-30-days.md) | План на 30 дней: воронка откликов, куда откликаться, что учить по неделям |
-| [03-interview-prep.md](03-interview-prep.md) | Рассказ о себе, питчи проектов, каверзные вопросы с ответами, кейсы, сопроводительные письма |
-| [04-internship-plan.md](04-internship-plan.md) | Где и когда подаваться на стажировки, календарь до лета 2027 |
-| [profile_assets.py](profile_assets.py) | Генератор шапки и карточек проектов для профиля GitHub |
-| [resume/](resume/) | Генератор резюме (HTML → PDF). Полная версия с телефоном — только здесь, в приватном репозитории |
+| [Subly](https://github.com/antonshkelll/Subly) | трекер подписок: Android, сервер на Ktor, оплата, админка |
+| [Экономика быстрого платежа](https://github.com/antonshkelll/sbp-economics) | исследование СБП и цифрового рубля, калькулятор для бизнеса |
+| [SplitLab](https://github.com/antonshkelll/splitlab-bnpl-analytics) | продуктовая аналитика BNPL: метрики, юнит-экономика, A/B-тест |
+| [Uplift](https://github.com/antonshkelll/uplift-targeting) | uplift-моделирование на реальном эксперименте |
+| [DropHunter](https://github.com/antonshkelll/drophunter-antifraud) | антифрод: поиск дропперов, порог по деньгам |
+| [TxGPT](https://github.com/antonshkelll/txgpt-llm-from-scratch) | GPT с нуля для категоризации операций |
+| [finpilot](https://github.com/antonshkelll/finpilot-mcp) | MCP-сервер для анализа банковской выписки |
+| [Пульс рынка](https://github.com/antonshkelll/ru-market-pulse) | дашборд по данным Мосбиржи, обновляется сам |
+| [Спроси ССт НАБ](https://github.com/antonshkelll/nab-bot) | бот и Mini App студсовета, живые пользователи |
 
-## Как пересобрать резюме
+## Контакты
 
-```bash
-cd career/resume
-python build_resume.py                  # → resume_ru.html, resume_en.html
-npm i playwright && npx playwright install chromium
-node render_pdf.js                      # → Anton_Shkel_Resume_RU.pdf / _EN.pdf + проверка, что всё влезает в 1 страницу
-```
-
-Текст правится в `content_*.json`; `**жирный**` превращается в выделение.
+[anton.shkel06@mail.ru](mailto:anton.shkel06@mail.ru) · [Telegram](https://t.me/antonshkelll) · [antonshkel.ru](https://antonshkel.ru) · [GitHub](https://github.com/antonshkelll)
