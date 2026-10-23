@@ -2,7 +2,7 @@
 
 # Антон Шкель — резюме
 
-**Продуктовая и антифрод-аналитика · данные · финтех**
+Продуктовая и антифрод-аналитика · данные · финтех
 
 [![RU](https://img.shields.io/badge/Резюме-на_русском_(PDF)-0071e3?style=for-the-badge)](resume/Anton_Shkel_Resume_RU.pdf)
 [![EN](https://img.shields.io/badge/Resume-in_English_(PDF)-1d1d1f?style=for-the-badge)](resume/Anton_Shkel_Resume_EN.pdf)
